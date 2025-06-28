@@ -13,7 +13,7 @@
     "prettier:check": "prettier --check --ignore-unknown .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate":"graphql-codegen --config codegen.ts"
+    "generate": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
     "@apollo/client": "^3.13.8",
@@ -23,13 +23,16 @@
     "@graphql-codegen/typescript-operations": "^4.6.1",
     "@graphql-codegen/typescript-react-apollo": "^4.3.3",
     "@tabler/icons-react": "^3.12.0",
+    "@types/leaflet": "^1.9.19",
     "graphql": "^16.11.0",
     "gray-matter": "^4.0.3",
+    "leaflet": "^1.9.4",
     "markdown-it": "^14.1.0",
     "next": "^14.2.6",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-leaflet": "^5.0.0",
     "sharp": "^0.33.5",
     "tailwind-merge": "^2.5.2"
   },

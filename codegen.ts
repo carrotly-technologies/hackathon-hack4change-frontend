@@ -1,8 +1,8 @@
 module.exports = {
   overwrite: true,
-  schema:'https://countries.trevorblades.com/graphql',
+  schema:'https://h4c-api.rabbithole.carrotly.tech/graphql',
   documents: [
-    '*/**/*.graphql',
+    '**/*.graphql',
   ],
   generates: {
     'src/api/__generated__/graphql.tsx': {

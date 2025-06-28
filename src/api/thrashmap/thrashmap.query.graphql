@@ -1,0 +1,6 @@
+query thrashmap{
+  activitiesThrashMap {
+    lat
+    lon
+  }
+}

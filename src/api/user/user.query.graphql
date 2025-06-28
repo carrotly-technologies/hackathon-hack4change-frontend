@@ -1,0 +1,30 @@
+query user{
+  user(input: {id: ""}) {
+    avatarUrl
+    awardIds
+    awards {
+      createdAt
+      iconUrl
+      id
+      title
+      updatedAt
+    }
+    challengeIds
+    challenges {
+      createdAt
+      description
+      iconUrl
+      id
+      points
+      topic
+      updatedAt
+    }
+    createdAt
+    email
+    firstname
+    id
+    lastname
+    points
+    updatedAt
+  }
+}
