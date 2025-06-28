@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import LogoMarquee from '../src/components/common/LogoMarquee';
 
 export default function HomePage() {
   return (
@@ -48,6 +49,8 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+      
+      <LogoMarquee />
     </div>
   );
 } 

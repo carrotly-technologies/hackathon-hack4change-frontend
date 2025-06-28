@@ -44,7 +44,7 @@ export default function ThrashMap() {
                     'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
                   ],
                   tileSize: 256,
-                  attribution: 'Made with love by carrotly.tech ❤️'
+                  attribution: 'Made with love by <a href="https://carrotly.tech" target="_blank">carrotly.tech</a> ❤️'
                 }
               },
               layers: [

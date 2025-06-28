@@ -1,5 +1,6 @@
 import ThrashMap from '../../src/components/widgets/ThrashMap';
 import TrashAnalysis from '../../src/components/widgets/TrashAnalysis';
+import LogoMarquee from '../../src/components/common/LogoMarquee';
 
 export default function ThrashMapPage() {
   return (
@@ -21,6 +22,8 @@ export default function ThrashMapPage() {
           <TrashAnalysis />
         </div>
       </div>
+      
+      <LogoMarquee />
     </div>
   );
 } 
