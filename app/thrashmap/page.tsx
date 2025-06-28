@@ -7,7 +7,7 @@ export default function ThrashMapPage() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              🗺️ Trash Map
+              <a href="/">🗺️ Trash Map</a>
             </h1>
             <p className="text-lg text-gray-600">
               Interactive map showing all recorded trash locations from community activities.
