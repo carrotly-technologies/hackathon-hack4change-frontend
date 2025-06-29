@@ -1,5 +1,5 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'GarboGo',
 
   origin: 'https://tailnext.vercel.app',
   basePathname: '/',
