@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-6xl font-bold text-gray-900 mb-6">
-            🗺️ GarboGo!
+            GarboGo!
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Interactive trash mapping platform for community environmental awareness
